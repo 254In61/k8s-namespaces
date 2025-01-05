@@ -1,0 +1,12 @@
+# namespace for the countries querry project.
+# The project has own mysql database and a python3 application server.
+# Other resources for the project will be added to this namespace.
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: countries
+  labels:
+    name: countries
+
+# Implement : $ kubectl apply -f manifests/countries.yaml
